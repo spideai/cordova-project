@@ -1,0 +1,89 @@
+.header {
+    top: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFE000;
+    background-color: #3C3C3C;
+}
+
+html, body {
+    height: 100vh;
+    background-color: #2C3E50;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+}
+
+.add-button {
+    position: fixed;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 15rem;
+    color: #FFE000;
+    background-color: #3C3C3C;
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.font-20px{font-size: 20px!important;}
+.font-50px{font-size: 50px!important;}
+.font-70px{font-size: 70px!important;}
+
+.fa-battery-filling{
+    position: relative;
+}
+.fa-battery-filling span{
+    position: absolute;
+    background: orange;
+    top: 28%;
+    height: 44%;
+    left: 11%;
+    border-radius: 2px;
+    transition: 250ms ease;
+}
+.fa-battery-filling [style="width:calc(1% * 0.73)"],
+.fa-battery-filling [style="width:calc(2% * 0.73)"],
+.fa-battery-filling [style="width:calc(3% * 0.73)"],
+.fa-battery-filling [style="width:calc(4% * 0.73)"],
+.fa-battery-filling [style="width:calc(5% * 0.73)"],
+.fa-battery-filling [style="width:calc(6% * 0.73)"],
+.fa-battery-filling [style="width:calc(7% * 0.73)"],
+.fa-battery-filling [style="width:calc(8% * 0.73)"],
+.fa-battery-filling [style="width:calc(9% * 0.73)"],
+.fa-battery-filling [style="width:calc(10% * 0.73)"],
+.fa-battery-filling [style="width:calc(11% * 0.73)"],
+.fa-battery-filling [style="width:calc(12% * 0.73)"],
+.fa-battery-filling [style="width:calc(13% * 0.73)"],
+.fa-battery-filling [style="width:calc(14% * 0.73)"],
+.fa-battery-filling [style="width:calc(15% * 0.73)"],
+.fa-battery-filling [style="width:calc(16% * 0.73)"],
+.fa-battery-filling [style="width:calc(17% * 0.73)"],
+.fa-battery-filling [style="width:calc(18% * 0.73)"],
+.fa-battery-filling [style="width:calc(19% * 0.73)"],
+.fa-battery-filling [style="width:calc(20% * 0.73)"]{
+    background: red;
+}
+.fa-battery-filling [style="width:calc(90% * 0.73)"],
+.fa-battery-filling [style="width:calc(91% * 0.73)"],
+.fa-battery-filling [style="width:calc(92% * 0.73)"],
+.fa-battery-filling [style="width:calc(93% * 0.73)"],
+.fa-battery-filling [style="width:calc(94% * 0.73)"],
+.fa-battery-filling [style="width:calc(95% * 0.73)"],
+.fa-battery-filling [style="width:calc(96% * 0.73)"],
+.fa-battery-filling [style="width:calc(97% * 0.73)"],
+.fa-battery-filling [style="width:calc(98% * 0.73)"],
+.fa-battery-filling [style="width:calc(99% * 0.73)"],
+.fa-battery-filling [style="width:calc(100% * 0.73)"]{
+    background: green;
+}
